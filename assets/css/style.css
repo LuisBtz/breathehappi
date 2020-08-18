@@ -32,6 +32,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 @media (max-width: 650px) {
@@ -69,6 +72,13 @@ body {
         margin: 0 auto;
         padding: 50px 0 100px;
     }
+    .container .cuerpo .logo.mov img {
+        width: 100%;
+    }
+}
+
+.container .cuerpo .body .mov {
+    display: none;
 }
 
 .container .cuerpo .body p {
@@ -80,6 +90,12 @@ body {
 @media (max-width: 650px) {
     .container .cuerpo .body p {
         text-align: left;
+    }
+    .container .cuerpo .body .mov {
+        display: block;
+    }
+    .container .cuerpo .body .desk {
+        display: none;
     }
 }
 
