@@ -77,7 +77,7 @@ body {
     }
 }
 
-.container .cuerpo .body .mov {
+.container .cuerpo .body.mov {
     display: none;
 }
 
@@ -91,10 +91,10 @@ body {
     .container .cuerpo .body p {
         text-align: left;
     }
-    .container .cuerpo .body .mov {
+    .container .cuerpo .body.mov {
         display: block;
     }
-    .container .cuerpo .body .desk {
+    .container .cuerpo .body.desk {
         display: none;
     }
 }
