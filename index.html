@@ -40,5 +40,26 @@
         </div>
     </div>
     
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+
+            $(".container").each(function() {
+                var _self = $(this);
+                var cont = $(window).height();
+
+                if (_self.outerHeight() > cont){
+                    _self.addClass('sm');
+                    _self.removeClass('vh');
+                } else {
+                    _self.addClass('vh');
+                    _self.removeClass('sm');
+                }
+            });
+
+        } );
+
+
+    </script>
 </body>
 </html>

@@ -27,6 +27,14 @@ body {
     letter-spacing: 1px;
 }
 
+.vh {
+    height: 100vh !important;
+}
+
+.sm {
+    height: auto !important;
+}
+
 .container {
     background-image: url(../img/bg.jpg);
     background-position: center;
