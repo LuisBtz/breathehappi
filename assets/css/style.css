@@ -101,8 +101,8 @@ body {
 
 .container .cuerpo form {
     text-align: center;
-    margin-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 50px;
+    padding-bottom: 150px;
 }
 
 .container .cuerpo form input {
@@ -132,14 +132,14 @@ body {
 @media (max-width: 430px) {
     .container .cuerpo form input.email {
         max-width: 350px;
-        width: 200px;
+        width: 100%;
         border-right: solid 1px black;
     }
     .container .cuerpo form input.submit {
         margin-left: 0 !important;
         margin-top: 10px;
         max-width: 350px;
-        width: 200px;
+        width: 100%;
     }
 }
 
